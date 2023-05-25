@@ -1,8 +1,6 @@
 import { StyleSheet, Text, View } from "react-native"
-import ProductCardItem from "../components/ProductCardItem"
 import ResourceDataMap from "../components/ResourceDataMap"
 import CategoryListItem from "../components/CategoryListItem"
-import image from '../../assets/cat1.png'
 import Input from "../components/InputBox/Input"
 
 const Category = () => {

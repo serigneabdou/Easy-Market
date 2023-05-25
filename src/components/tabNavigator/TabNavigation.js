@@ -36,8 +36,10 @@ const TabNavigation = () => {
           },
         }}
       />
+      {/* <View> */}
       <Tab.Screen name="panier" component={PanierScreen} />
       <Tab.Screen name="parametre" component={ParameterScreen} />
+      {/* </View> */}
     </Tab.Navigator>
   );
 };

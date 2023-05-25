@@ -5,14 +5,12 @@ import Navigator from './src/components/naviation/Navigator';
 //import Category from './src/screens/Category';
 //import { TouchableOpacity } from 'react-native-gesture-handler';
 //import imageCat from './assets/cat1.png'
-import { globalStyle } from './src/style/globalStyle';
 
 export default function App() {
   return (
     <View style={styles.container}>
 
-    <Navigator />
-     {/*  <Category /> */}
+      <Navigator />
       <StatusBar style="auto" />
     </View>
   );
@@ -21,8 +19,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-   
-  },
-    backgroundColor: globalStyle.colors.primary
-  
+    // paddingHorizontal: 10
+  }
 });

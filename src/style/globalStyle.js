@@ -6,7 +6,10 @@ export const globalStyle = {
         orange: '#E58924',
     },
     fonts: {
-        titleFontSize: '14.72px',
+        titleFontSize: 14.72,
         titleFontWeight: 700,
+    },
+    padding: {
+        insidePadding: 15
     }
 }

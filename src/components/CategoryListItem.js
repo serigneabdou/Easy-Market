@@ -4,8 +4,12 @@ import { globalStyle } from '../style/globalStyle'
 
 const CategoryListItem = ({ category }) => {
     const { categoryName, image, number } = category
+    const numCols = 4;
+
+    // Change to the spacing for each item
+    const spacing = '1.25rem';
     return (
-        <TouchableOpacity>
+        // <TouchableOpacity>
             <View style={[styles.containerCat, styles.shadowProp]}>
                 <Image style={styles.image} source={image} />
                 <View style={styles.textContainer}>
@@ -15,7 +19,7 @@ const CategoryListItem = ({ category }) => {
                     <Text style={styles.number}>202</Text>
                 </View>
             </View>
-        </TouchableOpacity>
+        // </TouchableOpacity>
     )
 }
 
@@ -23,18 +27,27 @@ export default CategoryListItem
 
 const styles = StyleSheet.create({
     containerCat: {
+        flex: 1,
         minWidth: 150,
-        height: 200,
-        marginBottom: 25,
-        borderRadius: 15,
-        backgroundColor: '#FFFFFF',
-        overflow: 'hidden',
+        height: 250,
+        // margin: 10,
+        backgroundColor: 'white',
         borderRadius: 10,
+        shadowColor: '#000',
+        shadowOpacity: 0.2,
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        elevation: 2,
     },
 
     image: {
+        borderRadius: 20 / 2,
+        overflow: "hidden",
+        borderWidth: 3,
         width: '100%',
-        height: '70%'
+        height: '80%'
     },
 
     textContainer: {
@@ -44,7 +57,7 @@ const styles = StyleSheet.create({
     },
 
     text: {
-        fontWeight: 'bold',
+        fontWeight: 800,
         color: '#3A3A3A',
         fontSize: globalStyle.fonts.titleFontSize
     },
@@ -59,6 +72,7 @@ const styles = StyleSheet.create({
         color: '#3A3A3A',
         padding: 5,
         paddingHorizontal: 10,
-        borderRadius: 50
+        borderRadius: 50,
+        fontSize: 10
     }
 });
