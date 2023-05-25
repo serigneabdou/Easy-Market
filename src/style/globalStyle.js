@@ -1,0 +1,12 @@
+export const globalStyle = {
+    colors: {
+        primary: '#B1B1B1',
+        secondary: '#FAFBFC',
+        tercary: '#000000',
+        orange: '#E58924',
+    },
+    fonts: {
+        titleFontSize: '14.72px',
+        titleFontWeight: 700,
+    }
+}
