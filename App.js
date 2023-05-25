@@ -19,7 +19,7 @@ export default function App() {
           </View>
         </View>
       </TouchableOpacity> */}
-      <Category />
+<Category/>
       <StatusBar style="auto" />
     </View>
   );
