@@ -23,7 +23,7 @@ export default CategoryListItem
 
 const styles = StyleSheet.create({
     containerCat: {
-        width: 150,
+        minWidth: 150,
         height: 200,
         marginBottom: 25,
         borderRadius: 15,
