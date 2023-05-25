@@ -18,15 +18,16 @@ const Input = () => {
 
 const styles = StyleSheet.create({
   input: {
-    marginStart : 10,
+    // marginStart : 10,
     backgroundColor : 'transparent',
-    width : '90%'
+    // width : '90%'
   },
   container: {
     marginVertical : 10,
     paddingHorizontal : 5,
     paddingVertical : 10,
-    width : '90%',
+    width: '100%',
+    // flex: 1,
     borderRadius : 10,
     flexDirection : 'row' ,
     justifyContent : 'space-between',
