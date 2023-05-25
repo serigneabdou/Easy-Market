@@ -10,7 +10,7 @@ const ProductCardItem = ({ product }) => {
                 onPress={onPressLearnMore}
                 title="Acheter"
                 color="#841584"
-                accessibilityLabel="Learn more about this purple button"
+                accessibilityLabel="Acheter un produit"
             />
         </Text>
     )
