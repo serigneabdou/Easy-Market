@@ -6,7 +6,7 @@ import ResourceDataMap from '../../components/ResourceDataMap'
 import CategoryListItem from '../../components/CategoryListItem'
 import image from '../../../assets/cat1.png'
 import { globalStyle } from '../../style/globalStyle'
-
+// panier
 const CategoryScreen = () => {
   return (
     <View style={styles.container}>
