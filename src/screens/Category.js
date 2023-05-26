@@ -5,20 +5,6 @@ import Input from "../components/InputBox/Input"
 
 const Category = () => {
     return (
-<<<<<<< HEAD
-        <Text>
-            <ResourceDataMap
-                resourceItem={CategoryListItem}
-                resourceName="category"
-                resourceData={[
-                    { categoryName: 'cat1', image: image },
-                    { categoryName: 'cat2', image: image },
-                    { categoryName: 'cat3', image: image },
-                    { categoryName: 'cat4', image: image }
-                ]}
-            />
-        </Text>
-=======
         <View>
             <Input />
             <Text style={styles.container}>
@@ -34,7 +20,6 @@ const Category = () => {
                 />
             </Text>
         </View>
->>>>>>> 5facc96cc596743767c1eb64821009fbff7a2a39
     )
 }
 

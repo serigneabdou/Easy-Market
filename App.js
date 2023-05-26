@@ -7,6 +7,7 @@ import CardProduct from './src/components/InputBox/CardProduct';
 import { globalStyle } from './src/style/globalStyle';
 import { StyleSheet, Text, View } from 'react-native';
 import Navigator from './src/components/naviation/Navigator';
+import DetailProduct from './src/components/DetailProduct';
 //import { Image, StyleSheet, Text, View } from 'react-native';
 //import Category from './src/screens/Category';
 //import { TouchableOpacity } from 'react-native-gesture-handler';
@@ -14,15 +15,20 @@ import Navigator from './src/components/naviation/Navigator';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      {/* <Input /> */}
-      <CardProduct />
-      {/* <Text>Open up App.js to start working on your app!</Text> */}
-      {/* <Category /> */}
-      {/* <StatusBar style="auto" /> */}
+    // <View style={styles.container}>
+    //   {/* <Input /> */}
+    //   {/* <CardProduct /> */}
+    //   {/* <Text>Open up App.js to start working on your app!</Text> */}
+    //   {/* <Category /> */}
+    //   {/* <StatusBar style="auto" /> */}
 
-      <Navigator />
-      <StatusBar style="auto" />
+    //   <Navigator />
+    //   <StatusBar style="auto" />
+    // </View>
+    <View style={styles.container}>
+      <DetailProduct />
+      {/* <Navigator />
+      <StatusBar style="auto" /> */}
     </View>
   );
 }
@@ -31,8 +37,8 @@ const styles = StyleSheet.create({
   container: {
     // marginHorizontal : 10,
     flex: 1,
-    alignItems : 'center',
-    backgroundColor: globalStyle.colors.primary
+    // alignItems : 'center',
+    // backgroundColor: globalStyle.colors.primary
     // paddingHorizontal: 10
   }
 });

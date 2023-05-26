@@ -12,5 +12,5 @@ export const globalStyle = {
     },
     padding: {
         insidePadding: 15
-    }
+    },
 }
