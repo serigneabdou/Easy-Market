@@ -9,7 +9,6 @@ import Navigator from './src/components/naviation/Navigator';
 export default function App() {
   return (
     <View style={styles.container}>
-
       <Navigator />
       <StatusBar style="auto" />
     </View>

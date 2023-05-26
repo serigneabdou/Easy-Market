@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   },
   container: {
     marginVertical : 10,
-    paddingHorizontal : 5,
+    paddingHorizontal: 15,
     paddingVertical : 10,
     width: '100%',
     // flex: 1,
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
   search : {
     color : "#D9D9D9",
-    marginEnd : 10,
+    marginEnd: 0,
   }
 });
 
