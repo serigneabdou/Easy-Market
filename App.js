@@ -15,20 +15,10 @@ import DetailProduct from './src/components/DetailProduct';
 
 export default function App() {
   return (
-    // <View style={styles.container}>
-    //   {/* <Input /> */}
-    //   {/* <CardProduct /> */}
-    //   {/* <Text>Open up App.js to start working on your app!</Text> */}
-    //   {/* <Category /> */}
-    //   {/* <StatusBar style="auto" /> */}
-
-    //   <Navigator />
-    //   <StatusBar style="auto" />
-    // </View>
     <View style={styles.container}>
-      <DetailProduct />
-      {/* <Navigator />
-      <StatusBar style="auto" /> */}
+      {/* <DetailProduct /> */}
+      <Navigator />
+      <StatusBar style="auto" />
     </View>
   );
 }

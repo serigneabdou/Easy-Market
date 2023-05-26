@@ -1,6 +1,6 @@
 export const globalStyle = {
     colors: {
-        primary: '#B1B1B1',
+        primary: '#FBF9F9',
         secondary: '#FAFBFC',
         tercary: '#000000',
         orange: '#E58924',

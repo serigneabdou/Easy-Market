@@ -29,10 +29,10 @@ const styles = StyleSheet.create({
     containerCat: {
         flex: 1,
         minWidth: 150,
-        height: 250,
+        height: 224,
         // margin: 10,
         backgroundColor: 'white',
-        borderRadius: 10,
+        borderRadius: 19,
         shadowColor: '#000',
         shadowOpacity: 0.2,
         shadowOffset: {
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
         overflow: "hidden",
         borderWidth: 3,
         width: '100%',
-        height: '80%'
+        height: '70%'
     },
 
     textContainer: {
@@ -59,7 +59,8 @@ const styles = StyleSheet.create({
     text: {
         fontWeight: 800,
         color: '#3A3A3A',
-        fontSize: globalStyle.fonts.titleFontSize
+        fontSize: globalStyle.fonts.titleFontSize,
+        marginBottom: 5
     },
     shadowProp: {
         shadowColor: '#171717',

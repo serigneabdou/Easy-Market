@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
     flex: 1,
     // justifyContent: 'center',
     alignItems: 'center',
-    padding: globalStyle.padding.insidePadding
-    // backgroundColor: 'yellow'
+    padding: globalStyle.padding.insidePadding,
+    backgroundColor: globalStyle.colors.primary
     // flexDirection: 'row',
 
   },
